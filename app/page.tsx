@@ -17,7 +17,7 @@ export default function HomePage() {
           <p className="marker-label text-amber-dim">Welcome</p>
           <div className="space-y-5 text-asphalt/80 leading-relaxed">
             <p>
-              Multan is a crossroads city, a place people pass through on their way somewhere
+              Islamabad is a crossroads city, a place people pass through on their way somewhere
               else. For fifteen years, {business.name} has been the dependable stop along that
               journey: a family-run guest house positioned directly on the main highway, built
               specifically for travelers who need rest, not a lobby full of formalities.
@@ -56,7 +56,7 @@ export default function HomePage() {
 
       <Testimonials />
 
-      <ClosingCta headline="Passing Through Multan? Your Room Is Ready." showRoomsLink />
+      <ClosingCta headline="Passing Through Highway? Your Room Is Ready." showRoomsLink />
     </>
   );
 }

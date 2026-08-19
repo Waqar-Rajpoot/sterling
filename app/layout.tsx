@@ -7,7 +7,7 @@ import { business } from "@/lib/business";
 export const metadata: Metadata = {
   title: `${business.name} — ${business.tagline}`,
   description:
-    "A trusted, 24-hour guest house directly on the Multan highway. Clean rooms, fair prices, and a welcome that never depends on the hour you arrive.",
+    "A trusted, 24-hour guest house directly on the Islamabad highway. Clean rooms, fair prices, and a welcome that never depends on the hour you arrive.",
 };
 
 export default function RootLayout({

@@ -6,7 +6,7 @@ import { business } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Get in Touch — ${business.name}`,
-  description: "Reach Al-Manzil Guest House by phone, WhatsApp, or email — answered any hour, any day.",
+  description: "Reach Sterling Guest House by phone, WhatsApp, or email — answered any hour, any day.",
 };
 
 export default function ContactPage() {
@@ -70,7 +70,7 @@ export default function ContactPage() {
             />
           </div>
           <p className="text-sm text-asphalt/60 leading-relaxed">
-            Located directly on the Multan main highway, easily visible from the road with
+            Located directly on the Islamabad main highway, easily visible from the road with
             dedicated guest parking on-site. Exact directions and a live map pin are shown above
             for visitors arriving from out of town.
           </p>
@@ -86,7 +86,6 @@ export default function ContactPage() {
       </section>
 
       <section className="bg-asphalt text-concrete">
-        <div className="route-line" aria-hidden="true" />
         <div className="mx-auto max-w-6xl px-5 py-12 text-center">
           <p className="font-display text-2xl md:text-3xl tracking-wide">
             Wherever your journey starts, we&apos;re easy to find — and ready to welcome you.

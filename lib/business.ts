@@ -137,7 +137,7 @@ export const whyChooseUs = [
   },
   {
     title: "Easy to Find, Easy to Reach",
-    text: "Directly on the Multan highway, with no confusing detours after a long drive.",
+    text: "Directly on the Islamabad highway, with no confusing detours after a long drive.",
     icon: "signpost",
   },
 ];

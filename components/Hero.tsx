@@ -7,8 +7,8 @@ export function Hero() {
     <section className="relative overflow-hidden bg-asphalt">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-exterior.svg"
-          alt={`${business.name} exterior at night on the Multan highway`}
+          src="/images/3.png"
+          alt={`${business.name} exterior at night on the Islamabad highway`}
           fill
           priority
           className="object-cover"
@@ -17,12 +17,12 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-6xl px-5 pt-24 pb-20 md:pt-36 md:pb-28">
-        <p className="marker-label text-amber mb-4">Multan Main Highway · Open 24 Hours</p>
+        <p className="marker-label text-amber mb-4">Islamabad Main Highway · Open 24 Hours</p>
         <h1 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-wide text-concrete leading-[0.95] max-w-3xl">
-          A Trusted Place to Rest, Right on the Multan Highway.
+          A Trusted Place to Rest, Right on the Islamabad Highway.
         </h1>
         <p className="mt-6 max-w-xl text-concrete/80 text-base md:text-lg leading-relaxed">
-          For fifteen years, travelers from every district — and from across borders — have
+          For fifteen years, travelers from every district and from across borders have
           chosen {business.name} for clean rooms, fair prices, and a welcome that never depends
           on the hour you arrive.
         </p>

@@ -6,7 +6,7 @@ Next.js (App Router) static export, 4 pages: Home, Rooms, About, Contact.
 
 Everything content-wise lives in `lib/business.ts`. Open it and replace:
 
-1. `name` — real business name (currently "Al-Manzil Guest House", a working name)
+1. `name` — real business name (currently "Sterling Guest House", a working name)
 2. `address` — real address + `mapQuery` (used for the embedded Google map on the Contact page)
 3. `phone` / `whatsapp` — real numbers (`href` fields must be digits only, no spaces)
 4. `rooms[].priceFrom` — real nightly rates per room type

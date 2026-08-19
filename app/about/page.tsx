@@ -6,7 +6,7 @@ import { business, whatSetsUsApart } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Our Story — ${business.name}`,
-  description: "Fifteen years of family-run hospitality on the Multan highway.",
+  description: "Fifteen years of family run hospitality on the Islamabad highway.",
 };
 
 export default function AboutPage() {
@@ -18,27 +18,27 @@ export default function AboutPage() {
         <div className="space-y-5 text-asphalt/80 leading-relaxed order-2 lg:order-1">
           <p>
             {business.name} began fifteen years ago with a simple observation: travelers moving
-            through Multan on the main highway needed somewhere dependable to stop — and at the
+            through Islamabad on the main highway needed somewhere dependable to stop and at the
             time, few options offered both safety and an honest price. What started as a small,
             family-run guest house has grown steadily since, not through expansion for its own
             sake, but by earning the trust of the people who stayed with us and came back.
           </p>
           <p>
-            Over the years, our guests have changed — families relocating between cities,
+            Over the years, our guests have changed families relocating between cities,
             transporters on long routes, visitors arriving from other countries for business or
-            to see relatives — but our approach has not. Every guest is treated as someone we
+            to see relatives but our approach has not. Every guest is treated as someone we
             want to see again, not as a one-time transaction.
           </p>
           <p>
             Today, {business.name} stands as one of the more recognized names for highway
-            travelers passing through Multan — built on word of mouth, repeat visits, and fifteen
+            travelers passing through Islamabad built on word of mouth, repeat visits, and fifteen
             years of showing up, every single day, for whoever needed a place to rest.
           </p>
         </div>
         <div className="relative aspect-[6/5] rounded-sm overflow-hidden order-1 lg:order-2">
           <Image
-            src="/images/about-building.svg"
-            alt={`${business.name} building on the Multan highway`}
+            src="/images/3.png"
+            alt={`${business.name} building on the Islamabad highway`}
             fill
             className="object-cover"
           />
@@ -51,14 +51,14 @@ export default function AboutPage() {
             <div className="bg-concrete-soft border-l-4 border-amber p-8 rounded-sm">
               <p className="marker-label text-amber-dim mb-3">Our Mission</p>
               <p className="font-display text-xl md:text-2xl tracking-wide text-asphalt leading-snug">
-                To give every traveler passing through Multan a safe, clean, and affordable place
+                To give every traveler passing through Islamabad  a safe, clean, and affordable place
                 to stay — delivered with the honesty and personal care of a family-run business.
               </p>
             </div>
             <div className="bg-concrete-soft border-l-4 border-route-green p-8 rounded-sm">
               <p className="marker-label text-amber-dim mb-3">Our Vision</p>
               <p className="font-display text-xl md:text-2xl tracking-wide text-asphalt leading-snug">
-                To be the most trusted name for highway travelers in Multan — known not for size,
+                To be the most trusted name for highway travelers in Islamabad — known not for size,
                 but for the consistency and quality of hospitality we offer every guest, every
                 time.
               </p>
