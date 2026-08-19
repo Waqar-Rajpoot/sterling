@@ -17,13 +17,13 @@ export default function HomePage() {
           <p className="marker-label text-amber-dim">Welcome</p>
           <div className="space-y-5 text-asphalt/80 leading-relaxed">
             <p>
-              Multan is a crossroads city — a place people pass through on their way somewhere
+              Multan is a crossroads city, a place people pass through on their way somewhere
               else. For fifteen years, {business.name} has been the dependable stop along that
               journey: a family-run guest house positioned directly on the main highway, built
               specifically for travelers who need rest, not a lobby full of formalities.
             </p>
             <p>
-              We don&apos;t compete on size. We compete on consistency — the same clean room,
+              We don&apos;t compete on size. We compete on consistency the same clean room,
               the same fair price, and the same door open to you whether you arrive at noon or at
               3 in the morning. That reliability is why transporters, visiting families, and
               repeat travelers keep coming back to the same address year after year.

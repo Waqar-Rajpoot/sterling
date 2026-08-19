@@ -1,29 +1,15 @@
-// ---------------------------------------------------------------------------
-// PLACEHOLDER BUSINESS DATA
-// ---------------------------------------------------------------------------
-// The 5 items flagged as unconfirmed in the content brief are collected here
-// so the real values can be swapped in ONE place before launch:
-//   1. businessName
-//   2. address
-//   3. phone / whatsapp
-//   4. rooms (count + pricing)
-//   5. yearsInService / founded
-// Everything else on the site pulls from this file — do not hardcode these
-// values anywhere else in the app.
-// ---------------------------------------------------------------------------
-
 export const business = {
   // 1. NAME — placeholder, confirm real registered/marketing name
-  name: "Al-Manzil Guest House",
-  tagline: "Rooms & Stays on the Multan Highway",
+  name: "Sterling Highway Stop",
+  tagline: "Rooms & Stays on the Islamabad Highway",
 
   // 2. ADDRESS — placeholder, confirm exact address for map + footer
   address: {
-    line1: "Al-Manzil Guest House",
-    line2: "Multan Main Highway",
-    city: "Multan, Punjab",
+    line1: "Sterling Highway Stop",
+    line2: "Islamabad Main Highway",
+    city: "Islamabad, Punjab",
     country: "Pakistan",
-    mapQuery: "Multan Main Highway, Multan, Pakistan", // used to build a Google Maps embed/link
+    mapQuery: "Islamabad Main Highway, Islamabad, Pakistan", // used to build a Google Maps embed/link
   },
 
   // 3. PHONE / WHATSAPP — placeholders, confirm real numbers
@@ -35,7 +21,7 @@ export const business = {
     display: "+92 300 0000000",
     href: "923000000000", // digits only, no leading +, for wa.me links
   },
-  email: "contact@almanzilguesthouse.example",
+  email: "contact@sterlinghighwaystop.example",
 
   hours: "Open 24 hours, every day of the week",
 
@@ -74,7 +60,7 @@ export const rooms: RoomType[] = [
     priceFrom: "PKR 3,500",
     priceUnit: "/ night",
     amenities: ["Fan/AC", "Attached Bathroom", "Wi-Fi", "Clean Linens", "Nearby Parking"],
-    image: "/images/room-standard.svg",
+    image: "/images/1.png",
   },
   {
     slug: "family",
@@ -85,7 +71,7 @@ export const rooms: RoomType[] = [
     priceFrom: "PKR 6,000",
     priceUnit: "/ night",
     amenities: ["Fan/AC", "Attached Bathroom", "Wi-Fi", "Clean Linens", "Nearby Parking"],
-    image: "/images/room-family.svg",
+    image: "/images/2.png",
   },
   {
     slug: "deluxe",
@@ -96,7 +82,7 @@ export const rooms: RoomType[] = [
     priceFrom: "PKR 8,500",
     priceUnit: "/ night",
     amenities: ["Fan/AC", "Attached Bathroom", "Wi-Fi", "Clean Linens", "Nearby Parking"],
-    image: "/images/room-deluxe.svg",
+    image: "/images/3.png",
   },
 ];
 
