@@ -7,7 +7,7 @@ import { business, generalAmenities, rooms } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Our Rooms — ${business.name}`,
-  description: "Standard, Family, and Deluxe rooms at Sterling Highway Stop on the Islamabad highway. clean, secure, and ready any hour.",
+  description: "Standard, Family, and Deluxe rooms at Sterling Hospitality motorway Stop on the Islamabad motorway. clean, secure, and ready any hour.",
 };
 
 export default function RoomsPage() {
@@ -16,7 +16,7 @@ export default function RoomsPage() {
       <PageHeaderBanner
         eyebrow="Rooms"
         title="Our Rooms"
-        subtitle="Every room at Sterling Highway Stop is cleaned and inspected before check-in. Choose the option that fits your trip from a quick overnight stop to a stay with the whole family."
+        subtitle="Every room at Sterling Hospitality motorway Stop is cleaned and inspected before check-in. Choose the option that fits your trip from a quick overnight stop to a stay with the whole family."
       />
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">

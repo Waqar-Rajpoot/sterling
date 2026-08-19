@@ -6,7 +6,7 @@ import { business, whatSetsUsApart } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Our Story — ${business.name}`,
-  description: "Fifteen years of family run hospitality on the Islamabad highway.",
+  description: "Starling family run hospitality on the Islamabad motorway.",
 };
 
 export default function AboutPage() {
@@ -17,8 +17,8 @@ export default function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20 grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-start">
         <div className="space-y-5 text-asphalt/80 leading-relaxed order-2 lg:order-1">
           <p>
-            {business.name} began fifteen years ago with a simple observation: travelers moving
-            through Islamabad on the main highway needed somewhere dependable to stop and at the
+            {business.name} began with a simple observation: travelers moving
+            through Islamabad on the main motorway needed somewhere dependable to stop and at the
             time, few options offered both safety and an honest price. What started as a small,
             family-run guest house has grown steadily since, not through expansion for its own
             sake, but by earning the trust of the people who stayed with us and came back.
@@ -30,7 +30,7 @@ export default function AboutPage() {
             want to see again, not as a one-time transaction.
           </p>
           <p>
-            Today, {business.name} stands as one of the more recognized names for highway
+            Today, {business.name} stands as one of the more recognized names for motorway
             travelers passing through Islamabad built on word of mouth, repeat visits, and fifteen
             years of showing up, every single day, for whoever needed a place to rest.
           </p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
         <div className="relative aspect-[6/5] rounded-sm overflow-hidden order-1 lg:order-2">
           <Image
             src="/images/3.png"
-            alt={`${business.name} building on the Islamabad highway`}
+            alt={`${business.name} building on the Islamabad motorway`}
             fill
             className="object-cover"
           />
@@ -58,7 +58,7 @@ export default function AboutPage() {
             <div className="bg-concrete-soft border-l-4 border-route-green p-8 rounded-sm">
               <p className="marker-label text-amber-dim mb-3">Our Vision</p>
               <p className="font-display text-xl md:text-2xl tracking-wide text-asphalt leading-snug">
-                To be the most trusted name for highway travelers in Islamabad — known not for size,
+                To be the most trusted name for motorway travelers in Islamabad — known not for size,
                 but for the consistency and quality of hospitality we offer every guest, every
                 time.
               </p>
@@ -70,10 +70,10 @@ export default function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
         <p className="marker-label text-amber-dim mb-2">Our Experience</p>
         <h2 className="font-display text-3xl md:text-4xl tracking-wide text-asphalt mb-6 max-w-lg">
-          What Fifteen Years on This Road Has Taught Us
+          What on This Road Has Taught Us
         </h2>
         <p className="text-asphalt/80 leading-relaxed max-w-2xl">
-          Fifteen years in hospitality teaches details that don&apos;t show up in a brochure: how
+          Starling hospitality teaches details that don&apos;t show up in a brochure: how
           to have a room ready at any hour, how to keep pricing fair even during peak travel
           seasons, and how to read what a tired traveler actually needs without them having to
           ask. That experience shows up in small ways — a fast check-in after a long drive, an
@@ -87,7 +87,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-5 py-16 md:py-20">
           <p className="marker-label text-amber mb-2">What Sets Us Apart</p>
           <h2 className="font-display text-3xl md:text-4xl tracking-wide mb-10 max-w-lg">
-            The Difference Fifteen Years Makes
+            The Difference Starling Makes
           </h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {whatSetsUsApart.map((item) => (
@@ -100,7 +100,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <ClosingCta headline="Come See What Fifteen Years of Consistency Looks Like." showRoomsLink />
+      <ClosingCta headline="Come See What Starling Consistency Looks Like." showRoomsLink />
     </>
   );
 }

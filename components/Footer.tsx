@@ -8,9 +8,9 @@ export function Footer() {
       {/* <div className="route-line" aria-hidden="true" /> */}
       <div className="mx-auto max-w-6xl px-5 py-14 grid gap-10 md:grid-cols-3">
         <div>
-          <span className="font-display text-xl tracking-wide text-concrete">Sterling</span>
+          <span className="font-display text-xl tracking-wide text-concrete">Sterling Hospitality</span>
           <p className="mt-3 text-sm leading-relaxed max-w-xs">
-            A dependable stop on the Islamabad highway — clean rooms, fair prices, and a door
+            A dependable stop on the Islamabad motorway — clean rooms, fair prices, and a door
             that&apos;s open at any hour.
           </p>
           <p className="mt-4 flex items-start gap-2 text-sm">

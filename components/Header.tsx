@@ -22,8 +22,8 @@ export function Header() {
           <span className="font-display text-xl md:text-2xl tracking-wide text-concrete">
             Sterling
           </span>
-          <span className="hidden sm:inline font-mono text-[0.65rem] uppercase tracking-[0.15em] text-amber">
-            Highway&nbsp;Stop
+          <span className="hidden sm:inline text-amber text-[0.65rem] uppercase tracking-[0.15em]">
+            Hospitality
           </span>
         </Link>
 
@@ -81,7 +81,6 @@ export function Header() {
           ))}
         </nav>
       )}
-      {/* <div className="route-line" aria-hidden="true" /> */}
     </header>
   );
 }

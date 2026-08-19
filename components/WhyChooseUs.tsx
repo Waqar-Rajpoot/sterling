@@ -6,7 +6,7 @@ export function WhyChooseUs() {
     <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
       <p className="marker-label text-amber-dim mb-2">Why Choose Us</p>
       <h2 className="font-display text-3xl md:text-4xl tracking-wide text-asphalt mb-10 max-w-lg">
-        Not the biggest stop on the highway. The one you can count on.
+        Not the biggest stop on the motorway. The one you can count on.
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {whyChooseUs.map((item) => (

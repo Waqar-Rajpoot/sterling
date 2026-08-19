@@ -18,8 +18,8 @@ export default function HomePage() {
           <div className="space-y-5 text-asphalt/80 leading-relaxed">
             <p>
               Islamabad is a crossroads city, a place people pass through on their way somewhere
-              else. For fifteen years, {business.name} has been the dependable stop along that
-              journey: a family-run guest house positioned directly on the main highway, built
+              else, {business.name} has been the dependable stop along that
+              journey: a family-run guest house positioned directly on the main motorway, built
               specifically for travelers who need rest, not a lobby full of formalities.
             </p>
             <p>
@@ -56,7 +56,7 @@ export default function HomePage() {
 
       <Testimonials />
 
-      <ClosingCta headline="Passing Through Highway? Your Room Is Ready." showRoomsLink />
+      <ClosingCta headline="Passing Through motorway? Your Room Is Ready." showRoomsLink />
     </>
   );
 }

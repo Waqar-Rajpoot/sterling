@@ -6,11 +6,8 @@ import { business } from "@/lib/business";
 export function RoomCard({ room, compact = false }: { room: RoomType; compact?: boolean }) {
   return (
     <div className="bg-concrete-soft border border-asphalt/10 rounded-sm overflow-hidden flex flex-col">
-      <div className="relative aspect-[4/3] bg-asphalt/5">
+      <div className="relative aspect-4/3 bg-asphalt/5">
         <Image src={room.image} alt={`${room.name} at ${business.name}`} fill className="object-cover" />
-        <span className="absolute top-3 left-3 bg-asphalt text-amber font-mono text-xs uppercase tracking-wide px-2.5 py-1 rounded-sm">
-          {room.priceFrom} <span className="text-concrete/60">{room.priceUnit}</span>
-        </span>
       </div>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="font-display text-xl tracking-wide text-asphalt">{room.name}</h3>

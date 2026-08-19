@@ -69,11 +69,6 @@ body {
   }
 }
 
-/* -------------------------------------------------------------------- */
-/* Signature motif: the dashed highway route line.                       */
-/* Used only in the stats strip and section dividers where a literal     */
-/* "distance / marker" reading makes sense — not sprinkled as decoration. */
-/* -------------------------------------------------------------------- */
 .route-line {
   position: relative;
   height: 3px;

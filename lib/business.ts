@@ -1,16 +1,16 @@
 export const business = {
   // 1. NAME — placeholder, confirm real registered/marketing name
-  name: "Sterling Highway Stop",
-  tagline: "Rooms & Stays on the Islamabad Highway",
+  name: "Sterling Hospitality",
+  tagline: "Rooms & Stays on the Islamabad motorway",
 
   // 2. ADDRESS — placeholder, confirm exact address for map + footer
-  address: {
-    line1: "Sterling Highway Stop",
-    line2: "Islamabad Main Highway",
-    city: "Islamabad, Punjab",
-    country: "Pakistan",
-    mapQuery: "Islamabad Main Highway, Islamabad, Pakistan", // used to build a Google Maps embed/link
-  },
+address: {
+  line1: "Sterling Hospitality motorway Stop",
+  line2: "Islamabad Main motorway, Islamabad, Punjab",
+  city: "Islamabad, Punjab",
+  country: "Pakistan",
+  mapQuery: "Islamabad Main motorway, Islamabad, Pakistan",
+},
 
   // 3. PHONE / WHATSAPP — placeholders, confirm real numbers
   phone: {
@@ -21,7 +21,7 @@ export const business = {
     display: "+92 300 0000000",
     href: "923000000000", // digits only, no leading +, for wa.me links
   },
-  email: "contact@sterlinghighwaystop.example",
+  email: "contact@sterlingmotorwaystop.example",
 
   hours: "Open 24 hours, every day of the week",
 
@@ -31,7 +31,7 @@ export const business = {
 
   // 4. ROOMS — placeholders, confirm real room count + pricing
   stats: [
-    { value: "15+", label: "Years on the Highway" },
+    { value: "15+", label: "Years on the motorway" },
     { value: "24/7", label: "Front Desk, Always Open" },
     { value: "30+", label: "Rooms Ready Nightly" },
     { value: "10k+", label: "Guests Hosted" },
@@ -111,13 +111,13 @@ export const testimonials = [
 
 export const whyChooseUs = [
   {
-    title: "Fifteen Years on This Road",
+    title: "Starling hospitality on This Road",
     text: "A history built one satisfied guest at a time, not overnight marketing.",
     icon: "route",
   },
   {
     title: "Always Open, Always Ready",
-    text: "Highway travel doesn't run on a schedule, and neither do we.",
+    text: "motorway travel doesn't run on a schedule, and neither do we.",
     icon: "clock",
   },
   {
@@ -137,7 +137,7 @@ export const whyChooseUs = [
   },
   {
     title: "Easy to Find, Easy to Reach",
-    text: "Directly on the Islamabad highway, with no confusing detours after a long drive.",
+    text: "Directly on the Islamabad motorway, with no confusing detours after a long drive.",
     icon: "signpost",
   },
 ];
@@ -149,14 +149,14 @@ export const whatSetsUsApart = [
   },
   {
     title: "Deep Local Knowledge",
-    text: "Fifteen years on this stretch of highway means genuine familiarity with the area, the routes, and the people who travel them.",
+    text: "Starling's presence on this stretch of motorway means genuine familiarity with the area, the routes, and the people who travel them.",
   },
   {
     title: "Consistency You Can Rely On",
-    text: "Long-standing guests and transport companies return specifically because the standard hasn't slipped in fifteen years.",
+    text: "Long-standing guests and transport companies return specifically because the standard hasn't slipped in Starling's history.",
   },
   {
     title: "True Accessibility",
-    text: "Direct highway frontage means guests find us easily, without side streets or late-night confusion.",
+    text: "Direct motorway frontage means guests find us easily, without side streets or late-night confusion.",
   },
 ];

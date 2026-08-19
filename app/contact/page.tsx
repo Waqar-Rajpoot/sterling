@@ -6,7 +6,7 @@ import { business } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Get in Touch — ${business.name}`,
-  description: "Reach Sterling Guest House by phone, WhatsApp, or email — answered any hour, any day.",
+  description: "Reach Sterling Hospitality motorway Stop by phone, WhatsApp, or email — answered any hour, any day.",
 };
 
 export default function ContactPage() {
@@ -70,7 +70,7 @@ export default function ContactPage() {
             />
           </div>
           <p className="text-sm text-asphalt/60 leading-relaxed">
-            Located directly on the Islamabad main highway, easily visible from the road with
+            Located directly on the Islamabad main motorway, easily visible from the road with
             dedicated guest parking on-site. Exact directions and a live map pin are shown above
             for visitors arriving from out of town.
           </p>
