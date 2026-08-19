@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
+@import "@fontsource/anton/latin.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/inter/latin-700.css";
+@import "@fontsource/ibm-plex-mono/latin-500.css";
+@import "@fontsource/ibm-plex-mono/latin-600.css";
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --asphalt: #1c1b1a;
+  --asphalt-soft: #2a2826;
+  --concrete: #ede8de;
+  --concrete-soft: #f7f4ec;
+  --amber: #f2a93b;
+  --amber-dim: #c9861f;
+  --route-green: #2f4b3c;
+  --caution: #c0392b;
+  --caution-soft: #d9564a;
+  --line-muted: rgba(237, 232, 222, 0.18);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-asphalt: var(--asphalt);
+  --color-asphalt-soft: var(--asphalt-soft);
+  --color-concrete: var(--concrete);
+  --color-concrete-soft: var(--concrete-soft);
+  --color-amber: var(--amber);
+  --color-amber-dim: var(--amber-dim);
+  --color-route-green: var(--route-green);
+  --color-caution: var(--caution);
+  --color-caution-soft: var(--caution-soft);
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--concrete-soft);
+  color: var(--asphalt);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus everywhere — no invisible focus states */
+:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+/* Signature motif: the dashed highway route line.                       */
+/* Used only in the stats strip and section dividers where a literal     */
+/* "distance / marker" reading makes sense — not sprinkled as decoration. */
+/* -------------------------------------------------------------------- */
+.route-line {
+  position: relative;
+  height: 3px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--amber) 0px,
+    var(--amber) 28px,
+    transparent 28px,
+    transparent 52px
+  );
+}
+
+.route-line--dark {
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--asphalt) 0px,
+    var(--asphalt) 28px,
+    transparent 28px,
+    transparent 52px
+  );
+  opacity: 0.25;
+}
+
+.marker-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Sodium-lamp glow used behind the hero, standing in for a real night photo */
+.sodium-glow {
+  background:
+    radial-gradient(ellipse 70% 55% at 25% 15%, rgba(242, 169, 59, 0.35), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(47, 75, 60, 0.35), transparent 65%),
+    linear-gradient(180deg, #14130f 0%, #1c1b1a 55%, #100f0d 100%);
 }

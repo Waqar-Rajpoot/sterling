@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="#ede8de"/>
+  <rect x="0" y="0" width="800" height="330" fill="#e2dbca"/>
+  <rect x="0" y="320" width="800" height="10" fill="#c9861f" opacity="0.4"/>
+  <rect x="600" y="50" width="150" height="230" fill="#2f4b3c" opacity="0.85"/>
+  <rect x="600" y="50" width="150" height="230" fill="none" stroke="#1c1b1a" stroke-width="8"/>
+  <line x1="675" y1="50" x2="675" y2="280" stroke="#1c1b1a" stroke-width="6"/>
+  <!-- two beds -->
+  <rect x="50" y="290" width="290" height="140" rx="10" fill="#1c1b1a"/>
+  <rect x="50" y="290" width="290" height="36" rx="10" fill="#2f4b3c"/>
+  <rect x="66" y="244" width="80" height="60" rx="10" fill="#f7f4ec"/>
+  <rect x="156" y="244" width="80" height="60" rx="10" fill="#f7f4ec"/>
+
+  <rect x="370" y="330" width="200" height="100" rx="10" fill="#1c1b1a"/>
+  <rect x="370" y="330" width="200" height="26" rx="10" fill="#c0392b"/>
+  <rect x="382" y="296" width="70" height="46" rx="8" fill="#f7f4ec"/>
+
+  <circle cx="480" cy="280" r="20" fill="#f2a93b"/>
+  <rect x="474" y="298" width="12" height="18" fill="#2a2826"/>
+
+  <rect x="0" y="466" width="800" height="94" fill="#d9d0ba"/>
+  <text x="40" y="530" font-family="IBM Plex Mono, monospace" font-size="20" fill="#8a7f66" letter-spacing="2">FAMILY ROOM — PLACEHOLDER PHOTO</text>
+</svg>

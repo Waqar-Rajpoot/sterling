@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Al-Manzil Guest House — Static Website
 
-## Getting Started
+Next.js (App Router) static export, 4 pages: Home, Rooms, About, Contact.
 
-First, run the development server:
+## Before you launch — 5 placeholders to swap
+
+Everything content-wise lives in `lib/business.ts`. Open it and replace:
+
+1. `name` — real business name (currently "Al-Manzil Guest House", a working name)
+2. `address` — real address + `mapQuery` (used for the embedded Google map on the Contact page)
+3. `phone` / `whatsapp` — real numbers (`href` fields must be digits only, no spaces)
+4. `rooms[].priceFrom` — real nightly rates per room type
+5. `yearsInService` / the stats strip numbers — confirm founding year and real counts
+
+Images in `/public/images/*.svg` are brand-colored placeholder illustrations, not real
+photos — swap them for real photography (same filenames, or update the `src` paths in
+`components/Hero.tsx`, `components/RoomCard.tsx`, and `app/about/page.tsx`).
+
+## Contact form
+
+This is a fully static site with no backend. The Contact form builds a `mailto:` link
+from the entered fields and opens the visitor's email app — nothing is submitted to a
+server. If you want real form submissions without adding a backend, swap
+`components/ContactForm.tsx` to post to a service like Formspree; if you want a WhatsApp-first
+flow instead, replace the `mailto:` in `handleSubmit` with a `https://wa.me/...` link built the
+same way `ClosingCta` and `Header` already do it.
+
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev       # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Build for static hosting
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build      # outputs static HTML/CSS/JS to /out
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`/out` is a fully static site — drop it on any static host (Vercel, Netlify, GitHub Pages,
+S3, cPanel, etc). No Node server required at runtime.
