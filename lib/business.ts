@@ -1,9 +1,7 @@
 export const business = {
-  // 1. NAME — placeholder, confirm real registered/marketing name
   name: "Sterling Hospitality",
   tagline: "Rooms & Stays on the Islamabad motorway",
 
-  // 2. ADDRESS — placeholder, confirm exact address for map + footer
 address: {
   line1: "Sterling Hospitality motorway Stop",
   line2: "Islamabad Main motorway, Islamabad, Punjab",
@@ -14,14 +12,14 @@ address: {
 
   // 3. PHONE / WHATSAPP — placeholders, confirm real numbers
   phone: {
-    display: "+92 300 0000000",
-    href: "+923000000000", // digits only, no spaces, for tel:/wa.me links
+    display: "0339-1105147",
+    href: "+923391105147", // digits only, no spaces, for tel:/wa.me links
   },
   whatsapp: {
-    display: "+92 300 0000000",
-    href: "923000000000", // digits only, no leading +, for wa.me links
+    display: "+92339-1105147",
+    href: "+923391105147", // digits only, no leading +, for wa.me links
   },
-  email: "contact@sterlingmotorwaystop.example",
+  email: "info@sterling.net",
 
   hours: "Open 24 hours, every day of the week",
 
