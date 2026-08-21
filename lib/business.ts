@@ -3,11 +3,11 @@ export const business = {
   tagline: "Rooms & Stays on the Islamabad motorway",
 
 address: {
-  line1: "Sterling Hospitality motorway Stop",
-  line2: "Islamabad Main motorway, Islamabad, Punjab",
-  city: "Islamabad, Punjab",
+  line1: "Plot # N-5, St # 27",
+  line2: "New Block C Ext, Shalimar Town",
+  city: "Islamabad",
   country: "Pakistan",
-  mapQuery: "Islamabad Main motorway, Islamabad, Pakistan",
+  mapQuery: "JV34+QJG Islamabad, Pakistan",
 },
 
   // 3. PHONE / WHATSAPP — placeholders, confirm real numbers

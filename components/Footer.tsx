@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <span className="font-display text-xl tracking-wide text-concrete">Sterling Hospitality</span>
           <p className="mt-3 text-sm leading-relaxed max-w-xs">
-            A dependable stop on the Islamabad motorway — clean rooms, fair prices, and a door
+            A dependable stop on the Islamabad motorway clean rooms, fair prices, and a door
             that&apos;s open at any hour.
           </p>
           <p className="mt-4 flex items-start gap-2 text-sm">
@@ -63,7 +63,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/10 flex items-center justify-center">
         <p className="mx-auto max-w-6xl px-5 py-5 text-xs text-concrete/50 font-mono">
           © {new Date().getFullYear()} {business.name}. All rights reserved.
         </p>
