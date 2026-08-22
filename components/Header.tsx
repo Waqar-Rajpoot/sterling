@@ -20,7 +20,7 @@ export function Header() {
       <div className="mx-auto max-w-6xl px-5 flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex items-baseline gap-2 shrink-0" onClick={() => setOpen(false)}>
           <span className="font-display text-xl md:text-2xl tracking-wide text-concrete">
-            Sterling
+            Sterlingone
           </span>
           <span className="hidden sm:inline text-amber text-[0.65rem] uppercase tracking-[0.15em]">
             Hospitality

@@ -6,7 +6,7 @@ import { business } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: `Get in Touch — ${business.name}`,
-  description: "Reach Sterling Hospitality motorway Stop by phone, WhatsApp, or email — answered any hour, any day.",
+  description: "Reach Sterlingone Hospitality motorway Stop by phone, WhatsApp, or email — answered any hour, any day.",
 };
 
 export default function ContactPage() {

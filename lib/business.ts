@@ -1,5 +1,5 @@
 export const business = {
-  name: "Sterling Hospitality",
+  name: "Sterlingone Hospitality",
   tagline: "Rooms & Stays on the Islamabad motorway",
 
 address: {

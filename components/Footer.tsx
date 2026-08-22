@@ -8,7 +8,7 @@ export function Footer() {
       {/* <div className="route-line" aria-hidden="true" /> */}
       <div className="mx-auto max-w-6xl px-5 py-14 grid gap-10 md:grid-cols-3">
         <div>
-          <span className="font-display text-xl tracking-wide text-concrete">Sterling Hospitality</span>
+          <span className="font-display text-xl tracking-wide text-concrete">Sterlingone Hospitality</span>
           <p className="mt-3 text-sm leading-relaxed max-w-xs">
             A dependable stop on the Islamabad motorway clean rooms, fair prices, and a door
             that&apos;s open at any hour.
